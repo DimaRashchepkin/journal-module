@@ -1,0 +1,13 @@
+choice
+	prompt "Configuration type"
+	default DEFCONFIG
+	help
+		Choose configuration
+
+config DEFCONFIG
+	bool "Default configuration"
+
+config CONFIG
+	bool "Custom configuration"
+
+endchoice
