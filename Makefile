@@ -40,6 +40,3 @@ cleanconfig:
 
 config:
 	/lib/modules/$(shell uname -r)/build/scripts/kconfig/conf Kconfig
-
-menuconfig:
-	/lib/modules/$(shell uname -r)/build/scripts/kconfig/mconf Kconfig
